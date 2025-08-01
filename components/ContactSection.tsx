@@ -236,7 +236,7 @@ export default function ContactSection() {
               </div>
             </div>
             
-            <div className="bg-white rounded-2xl shadow-xl p-8">
+            {/* <div className="bg-white rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Find Us</h3>
               <div className="aspect-video rounded-lg overflow-hidden">
                 <iframe
@@ -250,7 +250,7 @@ export default function ContactSection() {
                   title="Ice Candy Store Location"
                 ></iframe>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -10,11 +10,11 @@ export default function Footer() {
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-full flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-full flex items-center justify-center">
                 <i className="ri-snow-line text-white text-xl"></i>
-              </div>
-              <span className="text-2xl font-bold text-white" style={{ fontFamily: 'Pacifico, serif' }}>
-                logo
+              </div> */}
+              <span className="text-2xl font-bold text-white" >
+                SNOKO
               </span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
@@ -102,7 +102,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Ice Candy Co. All rights reserved.
+              © 2025 Ice Candy Co. All rights reserved dev by Zee.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">

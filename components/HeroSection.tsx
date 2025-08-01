@@ -35,7 +35,7 @@ export default function HeroSection() {
               Contact Us
             </button>
               </Link>
-              <Link href="#about" className="mr-2">
+              <Link href="#investor" className="mr-2">
             <button className="bg-yellow-500 text-black px-8 py-4 rounded-full font-semibold hover:bg-yellow-400 transition-colors cursor-pointer whitespace-nowrap text-lg">
               Invest Now
             </button>
