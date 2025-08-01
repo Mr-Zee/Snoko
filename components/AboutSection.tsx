@@ -11,7 +11,7 @@ export default function AboutSection() {
               Our Sweet Story
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Founded in 2018, our ice candy journey began with a simple mission: to create the most delicious and refreshing frozen treats using only the finest natural ingredients. What started as a small family business has grown into a beloved brand that brings joy to thousands of customers.
+              Founded in 2025, our ice candy journey began with a simple mission: to create the most delicious and refreshing frozen treats using only the finest natural ingredients. What started as a small family business has grown into a beloved brand that brings joy to thousands of customers.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               We believe that every ice candy should be a moment of pure happiness. That's why we carefully craft each flavor with love, using traditional recipes passed down through generations while embracing modern techniques to ensure perfect quality every time.

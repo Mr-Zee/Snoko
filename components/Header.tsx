@@ -13,11 +13,11 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-full flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-full flex items-center justify-center">
                 <i className="ri-snow-line text-white text-xl"></i>
-              </div>
-              <span className="text-2xl font-bold text-blue-600" style={{ fontFamily: 'Pacifico, serif' }}>
-                logo
+              </div> */}
+              <span className="text-2xl font-bold text-blue-600">
+                SNOKO
               </span>
             </Link>
           </div>

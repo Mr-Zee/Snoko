@@ -1,6 +1,8 @@
 
 'use client';
 
+import Link from "next/link";
+
 export default function HeroSection() {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -24,18 +26,20 @@ export default function HeroSection() {
             Beat the heat with our premium handcrafted ice candies. Made with natural ingredients and bursting with flavor.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap text-lg">
+            {/* <button className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap text-lg">
               <i className="ri-shopping-cart-line mr-2"></i>
               Buy Now
-            </button>
+            </button> */}
+              <Link href="#contact" className="mr-2">
             <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-colors cursor-pointer whitespace-nowrap text-lg">
-              <i className="ri-phone-line mr-2"></i>
               Contact Us
             </button>
+              </Link>
+              <Link href="#about" className="mr-2">
             <button className="bg-yellow-500 text-black px-8 py-4 rounded-full font-semibold hover:bg-yellow-400 transition-colors cursor-pointer whitespace-nowrap text-lg">
-              <i className="ri-fund-line mr-2"></i>
               Invest Now
             </button>
+              </Link>
           </div>
         </div>
       </div>
