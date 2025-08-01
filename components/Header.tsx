@@ -41,9 +41,9 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors cursor-pointer whitespace-nowrap">
+            {/* <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors cursor-pointer whitespace-nowrap">
               Buy Now
-            </button>
+            </button> */}
           </div>
 
           <button
@@ -72,9 +72,9 @@ export default function Header() {
               <Link href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">
                 Contact
               </Link>
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors cursor-pointer whitespace-nowrap w-fit">
+              {/* <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors cursor-pointer whitespace-nowrap w-fit">
                 Buy Now
-              </button>
+              </button> */}
             </nav>
           </div>
         )}
