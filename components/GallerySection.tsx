@@ -1,14 +1,21 @@
-
 'use client';
 
 import { useState } from 'react';
 
+type Category = 'Natural' | 'Dipped' | 'Waterly';
+
+interface GalleryItem {
+  id: number;
+  title: string;
+  image: string;
+}
+
 export default function GallerySection() {
-  const [activeCategory, setActiveCategory] = useState('Natural');
+  const [activeCategory, setActiveCategory] = useState<Category>('Natural');
 
-  const categories = ['Natural', 'Dipped', 'Waterly'];
+  const categories: Category[] = ['Natural', 'Dipped', 'Waterly'];
 
-  const galleryItems = {
+  const galleryItems: Record<Category, GalleryItem[]> = {
     Natural: [
       {
         id: 1,
@@ -139,7 +146,10 @@ export default function GallerySection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {galleryItems[activeCategory].map((item) => (
-            <div key={item.id} className="group relative overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-xl transition-all duration-300">
+            <div
+              key={item.id}
+              className="group relative overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-xl transition-all duration-300"
+            >
               <div className="aspect-square overflow-hidden">
                 <img
                   src={item.image}
