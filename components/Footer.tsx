@@ -18,21 +18,21 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
-              Bringing you the most delicious and refreshing ice candies made with love and natural ingredients. Your happiness is our priority.
+              Let’s SNOKO melt your stress away. We serve happiness on a stick
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors cursor-pointer">
+              <a href="https://www.facebook.com/share/18YXogsSyN/?mibextid=wwXIfr" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors cursor-pointer">
                 <i className="ri-facebook-fill text-lg"></i>
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-400 transition-colors cursor-pointer">
+              {/* <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-400 transition-colors cursor-pointer">
                 <i className="ri-twitter-fill text-lg"></i>
-              </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors cursor-pointer">
+              </a> */}
+              <a href="https://www.instagram.com/snokoicecandy" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors cursor-pointer">
                 <i className="ri-instagram-fill text-lg"></i>
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-600 transition-colors cursor-pointer">
+              {/* <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-600 transition-colors cursor-pointer">
                 <i className="ri-youtube-fill text-lg"></i>
-              </a>
+              </a> */}
             </div>
           </div>
           
@@ -71,21 +71,21 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-6">Categories</h3>
             <ul className="space-y-4">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <a href="#gallery" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Natural Flavors
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <a href="#gallery" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Dipped Specials
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <a href="#gallery" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Waterly Fresh
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Seasonal Treats
                 </a>
@@ -94,7 +94,7 @@ export default function Footer() {
                 <a href="#" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Party Packs
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -102,9 +102,9 @@ export default function Footer() {
         <div className="border-t border-gray-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 Ice Candy Co. All rights reserved dev by Zee.
+              © 2025 Snoko All rights reserved. dev by Zee.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
+            {/* <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">
                 Privacy Policy
               </Link>
@@ -114,7 +114,7 @@ export default function Footer() {
               <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">
                 Cookie Policy
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

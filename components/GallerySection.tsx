@@ -158,11 +158,11 @@ export default function GallerySection() {
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <div className="absolute bottom-4 left-4 right-4 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+              <div className="absolute bottom-4 left-4 right-4 text-red-500 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                <button className="bg-white text-gray-900 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap">
+                {/* <button className="bg-white text-gray-900 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap">
                   Order Now
-                </button>
+                </button> */}
               </div>
             </div>
           ))}

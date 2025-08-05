@@ -23,8 +23,7 @@ export default function HeroSection() {
             <span className="text-cyan-300">Ice Candy</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-            Beat the heat with our premium handcrafted ice candies. Made with natural ingredients and bursting with flavor.
-          </p>
+Let’s SNOKO melt your stress away. We serve happiness on a stick.         </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             {/* <button className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap text-lg">
               <i className="ri-shopping-cart-line mr-2"></i>

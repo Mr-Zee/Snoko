@@ -56,9 +56,9 @@ export default function InvestorSection() {
                 Learn More
               </button> */}
               <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-orange-500 transition-colors cursor-pointer whitespace-nowrap">
-                <Link href="#contact" className="ri-phone-line">
+                <a href="#contact">
                 Call Now  
-                </Link>
+                </a>
               </button>
             </div>
           </div>
