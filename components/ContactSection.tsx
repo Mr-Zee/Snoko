@@ -266,25 +266,43 @@ export default function ContactSection() {
                   <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
                     <i className="ri-phone-line text-green-600 text-xl"></i>
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                    <p className="text-gray-600">+91 735 636 5404</p>
-                  </div>
+                 <div>
+  <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
+  <a
+    href="tel:+917356365404"
+    className="text-gray-600 hover:text-blue-600 transition-colors"
+  >
+    +91 735 636 5404
+  </a>
+</div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                    <i className="ri-mail-line text-purple-600 text-xl"></i>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Customer care</h4>
-                    <p className="text-gray-600">support@snoko.in </p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">For Trade</h4>
-                    <p className="text-gray-600">franchise@snoko.in</p>
-                  </div>
-                </div>
+               <div className="flex items-start space-x-4">
+  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+    <i className="ri-mail-line text-purple-600 text-xl"></i>
+  </div>
+
+  <div>
+    <h4 className="font-semibold text-gray-900 mb-1">Customer care</h4>
+    <a
+      href="mailto:support@snoko.in"
+      className="text-gray-600 hover:text-purple-600 transition-colors"
+    >
+      support@snoko.in
+    </a>
+  </div>
+
+  <div>
+    <h4 className="font-semibold text-gray-900 mb-1">For Trade</h4>
+    <a
+      href="mailto:franchise@snoko.in"
+      className="text-gray-600 hover:text-purple-600 transition-colors"
+    >
+      franchise@snoko.in
+    </a>
+  </div>
+</div>
+
 
                 {/* <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
