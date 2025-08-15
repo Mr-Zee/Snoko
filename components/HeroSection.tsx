@@ -2,6 +2,8 @@
 'use client';
 
 import Link from "next/link";
+import Image from "next/image";
+import HeroBG from "../assets/bg_hero.webp";
 
 export default function HeroSection() {
   return (
@@ -9,10 +11,11 @@ export default function HeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://readdy.ai/api/search-image?query=Vibrant%20colorful%20ice%20candy%20popsicles%20melting%20in%20summer%20sunshine%20with%20refreshing%20blue%20and%20white%20gradient%20background%2C%20cool%20refreshing%20atmosphere%2C%20professional%20food%20photography%2C%20bright%20cheerful%20colors%2C%20clean%20modern%20aesthetic%2C%20frozen%20treats%20display&width=1920&height=1080&seq=hero-bg&orientation=landscape')`
+          // backgroundImage: `url('https://readdy.ai/api/search-image?query=Vibrant%20colorful%20ice%20candy%20popsicles%20melting%20in%20summer%20sunshine%20with%20refreshing%20blue%20and%20white%20gradient%20background%2C%20cool%20refreshing%20atmosphere%2C%20professional%20food%20photography%2C%20bright%20cheerful%20colors%2C%20clean%20modern%20aesthetic%2C%20frozen%20treats%20display&width=1920&height=1080&seq=hero-bg&orientation=landscape')`
+          backgroundImage: `url(${HeroBG.src})`
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/80 to-cyan-500/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/90 to-cyan-500/80"></div>
       </div>
       
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
