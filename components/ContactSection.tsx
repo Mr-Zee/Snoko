@@ -14,7 +14,7 @@ export default function ContactSection() {
   const [submitMessage, setSubmitMessage] = useState("");
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -50,7 +50,7 @@ export default function ContactSection() {
 
       if (response.ok) {
         setSubmitMessage(
-          "Thank you for your message! We will get back to you soon."
+          "Thank you for your message! We will get back to you soon.",
         );
         setFormData({
           name: "",
@@ -61,12 +61,12 @@ export default function ContactSection() {
         });
       } else {
         setSubmitMessage(
-          "There was an error sending your message. Please try again."
+          "There was an error sending your message. Please try again.",
         );
       }
     } catch (error) {
       setSubmitMessage(
-        "There was an error sending your message. Please try again."
+        "There was an error sending your message. Please try again.",
       );
     }
 
@@ -253,6 +253,21 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">
+                      Branch Outlets:
+                    </h4>
+                    <p className="text-gray-600">
+                      Koovapadam Junction, Jawahar Rd,Kappalandimukku,
+                      Mattancherry, FortKochi, Kerala 682002
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                    <i className="ri-map-pin-line text-blue-600 text-xl"></i>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-1">
                       Marketed By:
                     </h4>
                     <p className="text-gray-600">
@@ -277,12 +292,16 @@ export default function ContactSection() {
                     <i className="ri-mail-line text-purple-600 text-xl"></i>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Customer care</h4>
-                    <p className="text-gray-600">support@snoko.in </p>
+                    <h4 className="font-semibold text-gray-900 mb-1">
+                      Customer care
+                    </h4>
+                    <a href="mailto:support@snoko.in">support@snoko.in</a>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">For Trade</h4>
-                    <p className="text-gray-600">franchise@snoko.in</p>
+                    <h4 className="font-semibold text-gray-900 mb-1">
+                      For Trade
+                    </h4>
+                    <a href="mailto:franchise@snoko.in">franchise@snoko.in</a>
                   </div>
                 </div>
 
