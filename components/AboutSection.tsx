@@ -1,13 +1,26 @@
 "use client";
+import Image from "next/image";
+import art from "../assets/art.gif";
 
 export default function AboutSection() {
   return (
     <section
       id="about"
-      className="py-20 bg-gradient-to-br from-blue-50 to-cyan-50"
+      className="py-20 bg-gradient-to-br from-white to-cyan-50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="relative">
+            <div className="">
+              <Image
+                src={art}
+                alt="Family enjoying ice candy"
+                width={580}
+                height={580}
+                className=" object-cover"
+              />
+            </div>
+          </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               About US
@@ -29,6 +42,7 @@ export default function AboutSection() {
             </p>
            
           </div>
+
         </div>
       </div>
     </section>
